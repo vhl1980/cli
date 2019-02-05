@@ -1,0 +1,13 @@
+version: 1.0.0
+
+kafka:
+  server.list: host1:99,host2:99
+  client.id: Zoro
+
+protocols:
+   - http
+   - https
+
+connection:
+    url: jdbc:phoenix://localhost:7777/db
+    poolSize: 5
