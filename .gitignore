@@ -1,4 +1,3 @@
-/.metadata/
  Compiled source #
 ###################
 *.com
@@ -21,3 +20,10 @@
 *.tar
 *.zip
 
+# eclipse #
+*.metadata
+*.recommenders
+*.classpath
+*.project
+*.settings
+*target
